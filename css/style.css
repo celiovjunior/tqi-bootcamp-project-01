@@ -1,5 +1,6 @@
 @import '_reset.css';
 @import 'global.css';
+@import 'menu.css';
 
 .header-wrapper {
   height: 100vh;
