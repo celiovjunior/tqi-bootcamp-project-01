@@ -2,6 +2,8 @@
 @import 'global.css';
 @import 'menu.css';
 @import 'home.css';
+@import 'footer.css';
+@import 'reponsive.css';
 
 .header-wrapper {
   height: 100vh;
