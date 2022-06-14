@@ -40,6 +40,15 @@
   line-height: 1.75;
 }
 
+.card-wrapper {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
 .card-wrapper::before {
   content: '';
   position: absolute;
@@ -74,6 +83,13 @@
 
 .card:hover > .card-wrapper::before {
   opacity: 1;
-  width: 350px;
   height: 250px;
+  width: 350px;
+}
+
+.card:hover > .card-wrapper p {
+  font-size: 14px;
+  margin-top: 32px;
+  opacity: 1;
+  visibility: visible;
 }
